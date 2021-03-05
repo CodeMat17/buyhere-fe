@@ -71,11 +71,10 @@
             </div>
           </div>
         </div>
-
-        <!-- newsletter modal -->
-        <NewsLetter />
+        
       </div>
     </div>
+    <NewsLetter />
     <Footer />
   </div>
 </template>

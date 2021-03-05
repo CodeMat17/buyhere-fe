@@ -31,6 +31,10 @@ export default {
         ssr: false
     }, ],
 
+    axios: {
+        baseURL: process.env.STRAPI_URL
+    },
+
     // Auto import components (https://go.nuxtjs.dev/config-components)
     components: true,
 
@@ -47,6 +51,7 @@ export default {
         '@nuxtjs/strapi',
         '@nuxtjs/apollo',
         '@nuxtjs/dotenv',
+        '@nuxtjs/axios',
     ],
 
     strapi: {
