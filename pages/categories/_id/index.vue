@@ -79,7 +79,7 @@
           </n-link>
         </div>
       </div>
-      <NewsLetter />
+      <Nl />
       <Footer />
     </div>
     
